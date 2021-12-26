@@ -1,4 +1,5 @@
 import React from "react";
+import "./SendMoney.css";
 
 const SendMoney = () => {
   return (

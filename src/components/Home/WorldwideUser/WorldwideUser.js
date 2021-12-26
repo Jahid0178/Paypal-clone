@@ -1,4 +1,5 @@
 import React from "react";
+import "./WorldwideUser.css";
 
 const WorldwideUser = () => {
   return (

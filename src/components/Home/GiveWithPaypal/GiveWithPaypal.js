@@ -1,4 +1,5 @@
 import React from "react";
+import "./GiveWithPaypal.css";
 
 const GiveWithPaypal = () => {
   return (

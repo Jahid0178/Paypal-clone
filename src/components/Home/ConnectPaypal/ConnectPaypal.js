@@ -1,4 +1,5 @@
 import React from "react";
+import "./ConnectPaypal.css";
 
 const ConnectPaypal = () => {
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+import "./BuyNowPayLater.css";
 
 const BuyNowPayLater = () => {
   return (

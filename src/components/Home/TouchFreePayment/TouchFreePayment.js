@@ -1,4 +1,5 @@
 import React from "react";
+import "./TouchFreePayment.css";
 
 const TouchFreePayment = () => {
   return (
