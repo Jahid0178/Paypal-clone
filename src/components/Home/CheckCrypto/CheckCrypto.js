@@ -1,5 +1,6 @@
 import { Box, Container, Grid, Typography } from "@mui/material";
 import React from "react";
+import { Link } from "react-router-dom";
 import "./CheckCrypto.css";
 
 const CheckCrypto = () => {
@@ -23,13 +24,14 @@ const CheckCrypto = () => {
                 Access a new way to pay. Sign up for an account and spend crypto
                 at millions of online stores with PayPal.
               </Typography>
-              <Typography>
+              <Typography sx={{ mb: 2 }}>
                 Checking out with crypto is a taxable transaction. Fees and
                 exchange rates will apply. Buying and selling cryptocurrency is
                 subject to a number of risks and PayPal does not make any
                 recommendations. Consult your tax advisor. Merchants are paid in
                 fiat currency.
               </Typography>
+              <Link to="#">Sign Up</Link>
             </Box>
           </Grid>
           <Grid item xs={12} md={6}>
