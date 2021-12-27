@@ -28,7 +28,6 @@ const Banner = () => {
                   id="outlined-basic"
                   label="Phone"
                   variant="outlined"
-                  sx={{ color: "#fff" }}
                 />
                 <Button
                   component="div"
@@ -48,6 +47,7 @@ const Banner = () => {
             <img
               src="https://i.ibb.co/hmQ9Gt0/device-hero.png"
               alt="device-hero"
+              style={{ width: "100%", height: "auto" }}
             />
           </Grid>
         </Grid>
