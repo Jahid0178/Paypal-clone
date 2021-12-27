@@ -30,7 +30,7 @@ const BuyNowPayLater = () => {
               <Typography variant="h3">
                 Buy now, pay later with Pay in 4
               </Typography>
-              <Typography>
+              <Typography sx={{ my: 3 }}>
                 Want something now but the sale ends before payday? Choose Pay
                 in 4 at checkout with millions of online stores and split the
                 cost into 4 interest-free payments.
