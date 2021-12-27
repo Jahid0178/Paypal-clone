@@ -5,8 +5,8 @@ import "./GiveWithPaypal.css";
 
 const GiveWithPaypal = () => {
   return (
-    <div>
-      <Container>
+    <>
+      <Container sx={{ py: 5 }}>
         <Grid container spacing={2}>
           <Grid item xs={12} md={6}>
             <img
@@ -36,7 +36,7 @@ const GiveWithPaypal = () => {
           </Grid>
         </Grid>
       </Container>
-    </div>
+    </>
   );
 };
 
