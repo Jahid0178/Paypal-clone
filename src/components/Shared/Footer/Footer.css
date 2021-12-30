@@ -1,5 +1,6 @@
 .footer-ul {
   display: flex;
+  flex-wrap: wrap;
   list-style-type: none;
   padding-left: 0;
 }
@@ -34,6 +35,7 @@
 
 .footer-bottom-ul {
   display: flex;
+  flex-wrap: wrap;
   justify-content: end;
   list-style-type: none;
   padding-left: 0;
