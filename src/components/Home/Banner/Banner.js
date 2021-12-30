@@ -28,6 +28,7 @@ const Banner = () => {
                   id="outlined-basic"
                   label="Phone"
                   variant="outlined"
+                  style={phoneInput}
                 />
                 <Button component="div" style={mainButton} variant="contained">
                   Send Link
@@ -61,4 +62,10 @@ const mainButton = {
   padding: "15px",
   marginTop: "10px",
   borderRadius: "50px",
+};
+
+const phoneInput = {
+  width: "300px",
+  backgroundColor: "#fff",
+  borderRadius: "5px",
 };
