@@ -29,11 +29,7 @@ const Banner = () => {
                   label="Phone"
                   variant="outlined"
                 />
-                <Button
-                  component="div"
-                  sx={{ mt: 1, display: "block", width: 110 }}
-                  variant="contained"
-                >
+                <Button component="div" style={mainButton} variant="contained">
                   Send Link
                 </Button>
                 <Typography sx={{ my: 2, fontWeight: "medium", color: "#fff" }}>
@@ -57,3 +53,12 @@ const Banner = () => {
 };
 
 export default Banner;
+
+const mainButton = {
+  width: "170px",
+  color: "#000",
+  backgroundColor: "#F9B822",
+  padding: "15px",
+  marginTop: "10px",
+  borderRadius: "50px",
+};
